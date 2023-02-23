@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms{
+    align-items: center;
+    /* margin: 3%; */
+    height: 35vh;
+    width: 25vw;
+    top: 15rem;
+    position: absolute;
+    background: #056c66;
+    border-radius: 10px;
+}
+
+.forms .card-name{
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.card-name{
+    margin: 15px 0;
+}
+
+.card-name input{
+    border-style: none;
+    border-radius: 10px;
+}
